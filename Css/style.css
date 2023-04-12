@@ -295,6 +295,10 @@ transition: 0.5s;
   padding: 25px;
   cursor: pointer;
   display: flex;
+  transition: all 0.5s ease-in-out;
+}
+.testimonials-col:hover{
+  box-shadow: 5px 5px 1rem #000;
 }
 .testimonials-col img{
   height: 40px;
